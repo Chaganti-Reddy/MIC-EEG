@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+type: software
+title: "Motor-Imagery-Classification: WGAN-GP Data Augmentation for MI-EEG Classification"
+abstract: >-
+  Code accompanying "Motor Imagery Classification Performance Enhancement with
+  EEG Data Augmentation via Wasserstein Generative Adversarial Networks".
+  Implements a WGAN-GP-based augmentation pipeline for BCI Competition IV 2a
+  motor-imagery EEG classification, using continuous wavelet transform (CWT)
+  scalograms and a CNN classifier under a leakage-controlled within-subject
+  evaluation protocol.
+authors:
+  - given-names: Mukesh
+    family-names: Mann
+    affiliation: "Indian Institute of Information Technology, Sonepat, India"
+    email: mukesh.maan@iiitsonepat.ac.in
+  - given-names: Rakesh P.
+    family-names: Badoni
+    affiliation: "Mahindra University, Hyderabad, India"
+    email: rakeshbadoni@gmail.com
+  - given-names: Alok
+    family-names: Sharma
+    affiliation: "Indian Institute of Information Technology, Sonepat, India"
+  - given-names: Venkatarami Reddy
+    family-names: Chaganti
+    affiliation: "Indian Institute of Information Technology, Sonepat, India"
+  - given-names: Predrag S.
+    family-names: Stanimirović
+    affiliation: "University of Niš, Serbia"
+    email: pecko@pmf.ni.ac.rs
+  - given-names: Deepak
+    family-names: Panwar
+    affiliation: "Manipal University Jaipur, India"
+    email: deepak.panwar@jaipur.manipal.edu
+repository-code: "https://github.com/Chaganti-Reddy/Motor-Imagery-Classification"
+doi: 10.5281/zenodo.22870348
+license: MIT
+version: 1.0.0
+date-released: "2026-09-21"
+keywords:
+  - motor imagery
+  - EEG
+  - brain-computer interface
+  - data augmentation
+  - generative adversarial networks
+  - WGAN-GP
+  - continuous wavelet transform
